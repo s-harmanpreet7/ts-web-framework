@@ -5,7 +5,7 @@ import { Collection } from './Collection';
 import { Eventing } from './Eventing';
 import { Model } from './Model';
 
-const rootURL = 'http://localhost:3000/users';
+const rootURL = 'http://localhost:3000';
 export class User extends Model<UserProps> {
 	static buildUser(attrs: UserProps): User {
 		return new User(
