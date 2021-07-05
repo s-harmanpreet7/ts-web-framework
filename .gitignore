@@ -1,0 +1,8 @@
+# Dependency directory
+node_modules
+
+# Cache folder
+.cache/
+
+# Ignore built ts files
+dist/**/*
