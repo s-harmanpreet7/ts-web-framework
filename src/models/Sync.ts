@@ -1,8 +1,5 @@
 import axios, { AxiosPromise } from 'axios';
-
-interface HasId {
-	id?: number;
-}
+import { HasId } from '../interfaces/HasId';
 
 export class Sync<T extends HasId> {
 	constructor(public rootURL: string) {}
