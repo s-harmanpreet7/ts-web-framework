@@ -1,7 +1,7 @@
 import { UserProps } from '../interfaces/UserProps';
 import { User } from '../models/User';
 import { UserForm } from './UserForm';
-import { UserShow } from './Usershow';
+import { UserShow } from './UserShow';
 import { View } from './View';
 
 export class UserEdit extends View<User, UserProps> {
