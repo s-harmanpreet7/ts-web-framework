@@ -1,3 +1,39 @@
 {
-	"users": []
+  "users": [
+    {
+      "id": 1,
+      "name": "Brock",
+      "age": 17
+    },
+    {
+      "name": "Ash Ketchum",
+      "age": 10,
+      "id": 2
+    },
+    {
+      "name": "Pikachu",
+      "age": 10,
+      "id": 3
+    },
+    {
+      "name": "Burberry",
+      "age": 10,
+      "id": 4
+    },
+    {
+      "name": "Misty",
+      "age": 10,
+      "id": 8
+    },
+    {
+      "name": "James",
+      "age": 17,
+      "id": 9
+    },
+    {
+      "name": "Jessie",
+      "age": 15,
+      "id": 10
+    }
+  ]
 }
